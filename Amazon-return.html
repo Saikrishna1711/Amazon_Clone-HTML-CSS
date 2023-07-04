@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders & Returns</title>
+    <link rel="icon" href="/Images/download.jpeg">
+    <div></div>
+</head>
+<script src="/amazon.js"></script>
+
+<link rel="stylesheet" href="/Amazom.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-logo border">
+                <a href="Amazon.html"> 
+                    <button id="logo">
+                    </button>
+                </a>
+                
+            </div>
+            <div class="address">
+                <p class="add-1">Deliver to sai</p>
+                <div class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="add-2">Hyderabad 505468</div>
+                </div>
+            </div>
+            <div class="nav-searchbox">
+                <select name="select" id="Select">
+                    <option>All</option>
+                </select>
+                <input class="search" placeholder="Search Amazon">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-country">
+                <p></p>
+                <p></p>
+                <div class="country-image">
+                    <img src="/Images/usflag.png" alt="">
+                    <select id="lang-select">
+                        <option>EN</option>
+                    </select>
+                </div>
+            </div>
+            <div class="account">
+                <p>Hello, name</p>
+                <select name="" id="Account-settings">
+                    <option> Account & Lists</option>
+                </select>
+            </div>
+            <div class="RandO">
+                <a href="Amazon-return.html">  <button id="return"> <div>Return</div> 
+                    <div>& Orders</div></button></a>
+                <!-- <p id="return">Return</p>
+                <p id="Orders"> & Orders</p> -->
+            </div>
+            <div class="cart">
+                <div><img src="/Images/cart.png" alt=""></div>
+                <p>Cart</p>
+            </div>
+        </div>
+        <div class="nav-2">
+            <div class="side-bar">
+                <i class="fa-solid fa-bars"></i>
+                <p>All</p>
+            </div>
+            <div class="content">
+                <p>Today's Deals</p>
+                <p>Buy Again</p>
+                <p>Customer Service </p>
+                <p>Registry</p>
+                <p>Gift Cards</p>
+                <p>Sell</p>
+            </div>
+            <div class="deals">
+                <p>Shop deals in Electronics</p>
+            </div>
+        </div>
+    </header>
+    <div class="return-page">
+        <div class="return-row-1">
+            <div><a href="^" class="your-account">Your Account</a> <span> <i id="xyz" class="fa-solid fa-chevron-right"></i></span></div>
+            <div id="your-orders">Your Orders</div>
+        </div>
+        <div class="return-row-2">
+            <div id="order-text"><h3>Your Orders</h3></div>
+            <div class="search-order">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div><input type="search" placeholder="Search all Orders" id="order-searchbox"></div>
+            </div>
+            <div>
+                <button id="order-search-btn" type="button">Search orders</button>
+            </div>
+        </div>
+        <div class="return-row-3">
+            <div class="order-details">
+                <ul>
+                    <li><a class="active" href="&">Orders </a></li>
+                    <li><a href="&">Buy Again</a></li>
+                    <li><a href="&">Not yet Shipped</a></li>
+                    <li><a href="&"> Digital Orders</a></li>
+                    <li><a href="&">Local Store Orders</a></li>
+                    <li><a href="&">Cancelled Orders</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="orderContainer">
+            <div>0 orders placed in</div>
+            <div><select name="" id="Order-past">
+                <option>Past 3 Months</option>
+                <option>last 30 days</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+            </select></div>
+        </div>
+        <div class="end"> After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in. <span><a href="%"> View or edit your browsing history</a></span></div>
+        <div class="spr">
+            <div class="spr-1">See personalised recommendations</div>
+            <div id="signin">
+                <input type="button" value="Sign in">
+            </div>
+            <div class="spr-2">
+                New Customer? <span><a href="%">Start here</a></span> 
+            </div>
+        </div>
+        <div class="totop">
+            <button type="button"  onclick="goToTop()" id="top-btn">Back to top</button>
+        </div>
+        <div class="about">
+            <div class="hori">
+                <div class="ver">
+                    <ul>
+                        <li><h4>Get to Know Us</h4></li>
+                        <li > <a href="*">Careers</a></li>
+                        <li > <a href="*">Blog</a></li>
+                        <li > <a href="*">About Amazon</a></li>
+                        <li > <a href="*">Investor Relations</a></li>
+                        <li > <a href="*">Amazon Devices</a></li>
+                        <li > <a href="*">Amazon Science</a></li>
+                    </ul>
+                   
+                </div>
+                <div class="ver">
+                    <ul>
+                        <li> <h4>Sell products on Amazon</h4></li>
+                        <li> <a href="*">Sell on Amazon Business</a></li>
+                        <li> <a href="*">Sell apps on Amazon</a></li>
+                        <li> <a href="*">Become an Affiliate</a></li>
+                        <li> <a href="*">Advertise Your Products</a></li>
+                        <li> <a href="*">Self-Publish with Us</a></li>
+                        <li> <a href="*">Host an Amazon Hub</a></li>
+                        <li> <a href="*">›See More Make Money with Us</a></li>
+                    </ul>
+                       
+                </div>
+                <div class="ver">
+                    <ul>
+                        <li><h4>Amazon Payment Products</h4></li>
+                        <li><a href="*"> Amazon Business Card</a></li>
+                        <li><a href="*">Shop with Points</a></li>
+                        <li><a href="*">Reload Your Balance</a></li>
+                        <li><a href="*">Amazon Currency Converter</a></li>
+                    </ul>
+                        
+                </div>
+                <div class="ver">
+                    <ul>
+                        <li><h4>Let Us Help You</h4></li>
+                        <li><a href="*">Amazon and COVID-19</a></li>
+                        <li><a href="*">Your Account</a></li>
+                        <li><a href="*">Your Orders</a></li>
+                        <li><a href="*">Shipping Rates & Policies</a></li>
+                        <li><a href="*">Returns & Replacements</a></li>
+                        <li><a href="*">Manage Your Content and Devices</a></li>
+                        <li><a href="*">Amazon Assistant</a></li>
+                        <li><a href="*">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="end-row-2">
+                <img src="/Images/logo3.png" alt="">
+                    <div class="footer-language">
+                        <a href="@" class="lang">
+                            <div><i class="fa-solid fa-globe"></i></div>
+                            <span id="lang1">English</span>
+                            <span><i class="fa-solid fa-up-down"></i></span>
+                        </a>
+                    </div>
+                    <div class="country">
+                        <a href="@" class="lang">
+                            <div><i class="fa-solid fa-dollar-sign"></i></div>
+                            <span id="lang1">USD-U.S.dollar</span>
+                        </a>
+                    </div>
+                    <div class="currency">
+                        <a href="@" class="lang">
+                            <div>
+                                <img src="/Images/usflag.png" alt="">
+                            </div>
+                            <span id="lang1">United States
+
+                            </span>
+                        </a>
+
+                    </div>
+            </div>
+
+        </div>
+    </div>
+</body>
